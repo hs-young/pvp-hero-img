@@ -26,3 +26,12 @@ git branch -M main # 创建主分支（main）
 git remote add origin https://github.com/hs-young/pvp-hero-img.git # 连接远程仓库
 git push -u origin main # 将代码提交到远程仓库
 ```
+## Python 代码打包为桌面应用程序
+pyinstaller：
+```
+pip install pyinstaller
+```
+打包
+```
+pyinstaller -F app.py
+```
