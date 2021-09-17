@@ -33,5 +33,5 @@ pip install pyinstaller
 ```
 打包
 ```
-pyinstaller -F app.py
+pyinstaller -F app.py -i favicon.ico
 ```
